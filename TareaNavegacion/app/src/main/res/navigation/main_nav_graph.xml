@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/bottom1Fragment2">
+
+    <fragment
+        android:id="@+id/bottom1Fragment2"
+        android:name="com.example.tareanavegacion.Bottom1Fragment"
+        android:label="fragment_bottom1"
+        tools:layout="@layout/fragment_bottom1" />
+    <fragment
+        android:id="@+id/bottom2Fragment2"
+        android:name="com.example.tareanavegacion.Bottom2Fragment"
+        android:label="fragment_bottom2"
+        tools:layout="@layout/fragment_bottom2" />
+    <fragment
+        android:id="@+id/bottom3Fragment2"
+        android:name="com.example.tareanavegacion.Bottom3Fragment"
+        android:label="fragment_bottom3"
+        tools:layout="@layout/fragment_bottom3" />
+    <fragment
+        android:id="@+id/drawer1Fragment2"
+        android:name="com.example.tareanavegacion.Drawer1Fragment"
+        android:label="fragment_drawer1"
+        tools:layout="@layout/fragment_drawer1" />
+    <fragment
+        android:id="@+id/drawer2Fragment2"
+        android:name="com.example.tareanavegacion.Drawer2Fragment"
+        android:label="fragment_drawer2"
+        tools:layout="@layout/fragment_drawer2" />
+    <fragment
+        android:id="@+id/drawer3Fragment2"
+        android:name="com.example.tareanavegacion.Drawer3Fragment"
+        android:label="fragment_drawer3"
+        tools:layout="@layout/fragment_drawer3" />
+    <fragment
+        android:id="@+id/options1Fragment2"
+        android:name="com.example.tareanavegacion.Options1Fragment"
+        android:label="fragment_options1"
+        tools:layout="@layout/fragment_options1" />
+    <fragment
+        android:id="@+id/options2Fragment2"
+        android:name="com.example.tareanavegacion.Options2Fragment"
+        android:label="fragment_options2"
+        tools:layout="@layout/fragment_options2" />
+    <fragment
+        android:id="@+id/options3Fragment2"
+        android:name="com.example.tareanavegacion.Options3Fragment"
+        android:label="fragment_options3"
+        tools:layout="@layout/fragment_options3" />
+</navigation>

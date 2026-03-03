@@ -38,6 +38,18 @@
         android:text="Iniciar Sesión"
         android:layout_marginTop="24dp" />
 
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#007bff"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true" />
+
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
